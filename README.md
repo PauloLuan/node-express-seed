@@ -1,9 +1,9 @@
 # node-express-seed
 
-[![Build Status](https://travis-ci.org/pauloluan/node-express-seed.svg)](https://travis-ci.org/pauloluan/node-express-seed)
-[![Coverage Status](https://coveralls.io/repos/pauloluan/node-express-seed/badge.svg)](https://coveralls.io/r/pauloluan/node-express-seed) 
-[![bitHound Score](https://www.bithound.io/github/pauloluan/node-express-seed/badges/score.svg?)](https://www.bithound.io/github/pauloluan/node-express-seed/master)
-[![Dependency Status](https://david-dm.org/pauloluan/node-express-seed.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/pauloluan/node-express-seed)
+[![Build Status](https://travis-ci.org/PauloLuan/node-express-seed.svg)](https://travis-ci.org/PauloLuan/node-express-seed)
+[![Coverage Status](https://coveralls.io/repos/PauloLuan/node-express-seed/badge.svg)](https://coveralls.io/r/PauloLuan/node-express-seed) 
+[![bitHound Score](https://www.bithound.io/github/PauloLuan/node-express-seed/badges/score.svg?)](https://www.bithound.io/github/PauloLuan/node-express-seed/master)
+[![Dependency Status](https://david-dm.org/PauloLuan/node-express-seed.svg "Dependencies Checked & Updated Regularly (Security is Important!)")](https://david-dm.org/PauloLuan/node-express-seed)
 
 
 ## Table of Contents
@@ -43,15 +43,15 @@ $ npm test
 
 ## Contributing
 
-Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/pauloluan/node-express-seed/issues/new)
+Pull requests and stars are always welcome. For bugs and feature requests, [please create an issue](https://github.com/PauloLuan/node-express-seed/issues/new)
 
 ## Author
 
 **Paulo Luan**
 
-+ [github/pauloluan](https://github.com/pauloluan)
++ [github/PauloLuan](https://github.com/PauloLuan)
 
 ## License
 
-Copyleft © 2015 pauloluan
-Released under the [MIT license](https://github.com/pauloluan/node-express-seed/blob/master/LICENSE).
+Copyleft © 2015 PauloLuan
+Released under the [MIT license](https://github.com/PauloLuan/node-express-seed/blob/master/LICENSE).
