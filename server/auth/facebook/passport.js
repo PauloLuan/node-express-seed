@@ -1,17 +1,17 @@
 var passport = require('passport');
 var FacebookStrategy = require('passport-facebook').Strategy;
 
-exports.setup = function (User, config) {
+exports.setup = function(User, config) {
     passport.use(new FacebookStrategy({
             clientID: config.facebook.clientID,
             clientSecret: config.facebook.clientSecret,
             callbackURL: config.facebook.callbackURL
         },
-        function (accessToken, refreshToken, profile, done) {
+        function(accessToken, refreshToken, profile, done) {
             User.findOne({
                     'facebook.id': profile.id
                 },
-                function (err, user) {
+                function(err, user) {
                     if (err) {
                         return done(err);
                     }
@@ -24,7 +24,7 @@ exports.setup = function (User, config) {
                             provider: 'facebook',
                             facebook: profile._json
                         });
-                        user.save(function (err) {
+                        user.save(function(err) {
                             if (err) done(err);
                             return done(err, user);
                         });

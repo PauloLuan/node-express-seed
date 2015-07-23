@@ -12,9 +12,9 @@ router
         session: false
     }))
 
-    .get('/callback', passport.authenticate('twitter', {
-        failureRedirect: '/signup',
-        session: false
-    }), auth.setTokenCookie);
+.get('/callback', passport.authenticate('twitter', {
+    failureRedirect: '/signup',
+    session: false
+}), auth.setTokenCookie);
 
 module.exports = router;
