@@ -27,6 +27,7 @@ describe('User Model', function() {
 
     it('should begin with no users', function(done) {
         User.find({}, function(err, users) {
+            should.not.exist(err);
             users.should.have.length(0);
             done();
         });
