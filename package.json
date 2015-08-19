@@ -39,7 +39,7 @@
     },
     "scripts": {
         "start": "node server/app.js",
-        "test": "npm run mochaTest && npm run coverage",
+        "test": "NODE_ENV=test npm run coverage",
         "mochaTest": "mocha \"server/**/*.spec.js\"",
         "coverage": "node node_modules/.bin/istanbul cover ./node_modules/mocha/bin/_mocha server/**/*.spec.js --report lcovonly -- -R spec && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage"
     },
